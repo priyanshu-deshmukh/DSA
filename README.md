@@ -60,8 +60,7 @@ This repository contains my implementation of various data structures covered in
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/data-structures-implementation.git
-   cd data-structures-implementation
+   git clone https://github.com/priyanshu-deshmukh/DSA.git
    ```
 
 2. **Compile and run (assuming C++ code)**
@@ -91,11 +90,11 @@ This code is based on the [Mastering Data Structures & Algorithms using C and C+
 
 ## 📈 Progress Tracker
 
-- [x] Arrays and ADT
 - [x] Recursion
-- [x] Linked List
-- [x] Stack
-- [x] Queue
+- [ ] Arrays and ADT
+- [ ] Linked List
+- [ ] Stack
+- [ ] Queue
 - [ ] Trees
 - [ ] AVL Trees
 - [ ] Graphs
