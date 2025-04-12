@@ -1,6 +1,6 @@
 # Data Structures Implementation
 
-![Profile Views](https://komarev.com/ghpvc/?username=priyanshu-deshmukh&repo=DSA)
+![Repo Views](https://komarev.com/ghpvc/?username=priyanshu-deshmukh&repo=DSA)
 
 ![Data Structures](https://img.shields.io/badge/Data%20Structures-Implementation-blue)
 ![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
