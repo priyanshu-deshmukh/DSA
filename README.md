@@ -91,6 +91,7 @@ This code is based on the [Mastering Data Structures & Algorithms using C and C+
 ## 📈 Progress Tracker
 
 - [x] Recursion
+- [x] Array Representation
 - [ ] Arrays and ADT
 - [ ] Linked List
 - [ ] Stack
