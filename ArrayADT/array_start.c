@@ -25,7 +25,7 @@ int main(){
 
     printf("Enter the number of elements: ");
     scanf("%d", &n);
-    arr.length = n;
+    arr.length = n;  
     printf("Enter the elements: \n");
     for(i = 0; i < n; i++){
         scanf("%d",&arr.A[i]);
