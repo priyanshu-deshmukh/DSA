@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "linearSearch.C": "cpp",
-        "improved_linear_search.C": "cpp"
+        "improved_linear_search.C": "cpp",
+        "linear_search_transposition.C": "cpp",
+        "linear_search_moveToFront.C": "cpp"
     }
 }
