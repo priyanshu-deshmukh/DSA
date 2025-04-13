@@ -41,5 +41,6 @@ int main(){
     append(&arr, 20);
 
     display(arr);
-
+    free(arr.A);
+    return 0;
 }

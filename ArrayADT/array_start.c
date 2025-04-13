@@ -32,4 +32,5 @@ int main(){
     }
 
     display(arr);
+    free(arr.A);
 }

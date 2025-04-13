@@ -9,52 +9,49 @@ struct Array{
 
 void display(struct Array arr){
     int i;
-    printf("Elements are: \ncurrent length = %d\n",arr.length);
+    printf("Elements are: \n");
     for(i = 0; i < arr.length; i++){
         printf("%d\t",arr.A[i]);
     }
     printf("\n");
 }
 
-void insert(struct Array *arr, int index, int ele){
-    if(index <= arr->length && arr->length < arr->size){
-        int i;
-    for(i = arr->length; i > index; i--){
-        arr->A[i] = arr->A[i - 1];
+void deletion(struct Array *arr, int index){
+    if(index >= 0 && index < arr->length){
+        int x = arr->A[index];
+    int i;
+    for(i = index; i < arr->length - 1; i++){
+        arr->A[i] = arr->A[i + 1];
     }
-    arr->A[i] = ele;
-    arr->length++;
+    arr->length -= 1;
+
+    printf("Deletion successful. New array: \n");
+    display(*arr);
     }
     else{
-        printf("Not possible\n");
+        printf("Deletion not possible");
     }
 }
 
-int main()
-{
+int main(){
     struct Array arr;
     printf("Enter the size of the array: ");
     scanf("%d", &arr.size);
 
+    arr.A = (int *)malloc(arr.size * sizeof(int));
+
     printf("Enter the number of elements: ");
     scanf("%d", &arr.length);
-
-    arr.A = (int *)malloc(arr.size * sizeof(int));
 
     printf("Enter the elements of the array: ");
     for(int i = 0; i < arr.length; i++){
         scanf("%d", &arr.A[i]);
     }
 
-    display(arr);
-    int n, pos;
-    printf("Enter a number to append: ");
+    int n;
+    printf("Enter an index for deletion: ");
     scanf("%d", &n);
-    printf("Enter index: ");
-    scanf("%d",&pos);
-    insert(&arr, pos, n);
-    display(arr);
-    
+    deletion(&arr, n);
     free(arr.A);
     return 0;
 }
