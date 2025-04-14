@@ -93,7 +93,7 @@ This code is based on the [Mastering Data Structures & Algorithms using C and C+
 
 - [x] Recursion
 - [x] Array Representation
-- [ ] Arrays and ADT
+- [x] Arrays ADT
 - [ ] Linked List
 - [ ] Stack
 - [ ] Queue
