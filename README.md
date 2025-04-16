@@ -24,7 +24,7 @@ This repository contains my implementation of various data structures covered in
   - Doubly Linked List
   - Circular Linked List
   
-- **Stacks**
+- **Stack**
   - Array Implementation
   - Linked List Implementation
   - Applications (Infix to Postfix, Parenthesis Matching)
