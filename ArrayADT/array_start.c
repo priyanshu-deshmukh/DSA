@@ -14,7 +14,7 @@ void display(struct Array arr){
         printf("%d\t",arr.A[i]);
     }
 }
-
+//noth
 int main(){
     int n, i;
     struct Array arr;
